@@ -7,6 +7,12 @@ body{
     background-color: black;
 }
 
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .logo-img{
     margin-left: 95px;
     margin-bottom: 20px;
@@ -664,6 +670,9 @@ strong {
     margin-left: 60px;
 }
 
+/*******************************************about end*********************************/
+
+
 /****************************************hamburger**********************************/
 
 
@@ -875,7 +884,7 @@ strong {
     }
 }
 
-/****************************************hamburger*********************************/
+/****************************************hamburger end*********************************/
 
 
 /**************************************branches************************************/
@@ -996,3 +1005,214 @@ strong {
 
  /************************************publications****************************/
  
+/**************************************media queri**********************/
+ 
+@media (max-width:1200px) {
+
+    .food-itm , .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-left{
+        width: 100%;
+    }
+
+    .sec6 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sec2 {
+        height: 100%;
+    }
+
+    .hero-mid {
+        flex-wrap: wrap;
+    }
+
+    .pub-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abt-box , .abt-boxes , .abt-hd , .abt-txt{
+        width: 90%;
+    }
+
+    .abt-txt {
+        font-size: small;
+        height: 100%;
+    }
+
+    .abt-box .tx1 {
+        width: 60%;
+    }
+
+}
+
+@media (max-width:1172px) {
+
+    .abt-hd{
+        font-size: x-small;
+        border: 1px solid gray;
+        text-align: center  ;
+    }
+
+    .abt-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt1 div {
+        width: 80%;
+        padding: 10px 0;
+    }
+
+    .imag1 {
+        width: 80%;
+    }
+
+    .hero-mid2 {
+        height: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar , .btn {
+        display: none;
+    }
+
+    .header2 {
+        display: block ;
+    }
+
+    .container {
+        justify-content: flex-start ;
+    }
+
+    .hero-mid3 {
+        width: 50%;
+    }
+
+    .ind-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .disc {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .disc ,.footer-li1 ,.footer-li2 ,.footer-li3 {
+        margin: 20px 0;
+    }
+
+    .disc p  {
+        width: 70%;
+    }
+
+    .disc h3 {
+        width: 30%;
+    }
+
+    footer ul li {
+        font-size: small;
+    }
+
+    .hero-sec {
+        font-size: small;
+        width: 50%;
+    }
+
+    .sec1 {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .sec2 {
+        height: 100%;
+        padding-bottom: 100px;
+    }
+
+    .hero-mid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-mid2 {
+        display: block;
+        width: 100%;
+        background-color: #0f0f0f;
+    }
+
+    .imag1 {
+        width: 100%;
+    }
+
+    .txt1 {
+        width: 100%;
+    }
+
+    .txt1 div {
+        width: 70%;
+        padding: 20px 0;
+    }
+
+    .pub-imgs {
+      height: 100%;
+      width: 60%;
+    }
+
+    .pub-txt {
+        width: 90%;
+    }
+
+    .abt-txt {
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    .abt-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abt-bx {
+        width: 70%;
+    }
+
+}
+
+@media (max-width:476px) {
+
+    .hero-mid3 {
+        width: 80%;
+    }   
+    
+    .pub-imgs {
+      width: 90%;
+    }
+
+    .abt-box .tx1,
+    .abt-box .im1 {
+        width: 90%;
+    }
+
+    .abt-bx {
+        width: 90%;
+    }
+}
+
+
+/* ******** MEDIA QUERIES END ******** */
